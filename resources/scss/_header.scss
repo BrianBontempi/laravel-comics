@@ -1,0 +1,30 @@
+header {
+    width: 100vw;
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        padding: 20px 0;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+
+    }
+
+    ul li a {
+        font-weight: bold;
+        padding: 10px;
+        color: #464646;
+        font-weight: bold;
+    }
+
+    ul li a.active,
+    ul li a:hover {
+        color: #0282F9;
+    }
+}
