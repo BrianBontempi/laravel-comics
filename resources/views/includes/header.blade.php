@@ -7,7 +7,7 @@
             <ul>
                 @foreach (config('header_menu') as $link)
                 <li>
-                    <a href="{{ route($link['route_name']) }}">{{ $link['text'] }}</a>
+                    <a href="{{ route($link['route_name']) }}" @if (Route::is($link['route_name']) || ($link['route_name'] == 'home' && Route::is('comic'))) class="active" @endif>{{ $link['text'] }}</a>
                 </li>
                 @endforeach
             </ul>
