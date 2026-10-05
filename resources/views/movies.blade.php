@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
-@section('title', 'Comics')
+@section('title', 'Movies')
 
 @section('main-content')
+<div class="container page-content">
     <h1>Movies</h1>
-
-
-@endsection 
+</div>
+@endsection
