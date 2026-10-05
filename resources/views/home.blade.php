@@ -20,13 +20,12 @@
                         </a>
                     </div>
                 </div>
+                @endforeach
             </div>
-            @endforeach
         </div>
         <div class="box-button">
             <button class="blue-spacing">LOAD MORE</button>
         </div>
     </div>
-</div>
 </div>
 @endsection

@@ -10,7 +10,7 @@
 </head>
 <body>
     {{-- Header--}}
-    @include('includes.header');
+    @include('includes.header')
 
     {{-- Main content--}}
     <main>
@@ -18,7 +18,7 @@
     </main>
 
     {{-- Footer--}}
-    @include('includes.footer');
+    @include('includes.footer')
 
     {{-- Scripts--}}
     @yield('scripts')
